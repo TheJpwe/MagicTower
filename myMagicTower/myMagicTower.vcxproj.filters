@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{186a7b9f-626b-4b1e-9421-6a68a153c767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="initializeMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myMagicTower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="role.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="initializeData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="move.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reDrawMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="backMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reLoadMapData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="myMagicTower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initializeMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="role.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initializeData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="move.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reDrawMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="backMap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reLoadMapData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\magictower.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="resources\【人物】NPC-1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myMagicTower1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
