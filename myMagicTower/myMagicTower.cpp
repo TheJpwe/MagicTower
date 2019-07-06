@@ -81,7 +81,6 @@ int main()
 
 
 	} while (true);
-	int i;
 	closegraph();
 	return 0;
 }
